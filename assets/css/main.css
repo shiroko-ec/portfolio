@@ -131,7 +131,7 @@ input, select, textarea {
 	}
 
 	.header_logo {
-			color: #000;
+			color: #555;
 		  font-size: 3em;
 		}
 
@@ -142,6 +142,10 @@ input, select, textarea {
 
 	header {
 		margin: 0 0 2em 0;
+	}
+
+	.portfoliotitle {
+		margin: 0;
 	}
 
 		header > p {
@@ -2265,6 +2269,8 @@ input, select, textarea {
 				background-color: #e8edec;
 			}
 
+
+
 /* Wide */
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
@@ -2631,3 +2637,11 @@ input, select, textarea {
 				}
 
 	}
+
+			/* aboutmeのフォントサイズ変更 */
+			#about p {
+				font-size: 0.7em;
+		    text-align: left;
+    		line-height: 1.5em;
+
+			}
