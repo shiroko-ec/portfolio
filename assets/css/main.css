@@ -130,13 +130,11 @@ input, select, textarea {
 		letter-spacing: -1px;
 	}
 
-		h2.alt {
-			color: #888;
+	.header_logo {
+			color: #000;
+		  font-size: 3em;
 		}
 
-			h2.alt strong {
-				color: #666;
-			}
 
 	h3 {
 		font-size: 1.5em;
@@ -148,6 +146,7 @@ input, select, textarea {
 
 		header > p {
 			margin: 1em 0 0 0;
+			font-size: 0.8em;
 		}
 
 	footer {
@@ -2397,8 +2396,8 @@ input, select, textarea {
 				font-size: 16pt;
 			}
 
-			header br {
-				display: none;
+			.container br {
+				display: inline;
 			}
 
 			.container {
