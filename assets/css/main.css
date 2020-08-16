@@ -2645,3 +2645,16 @@ input, select, textarea {
     		line-height: 1.5em;
 
 			}
+
+			/* 実績紹介の説明部分フォント指定 */
+			#portfolio h3 {
+				font-size: 0.7em;
+				font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+				color: #888;
+			}
+
+		@media screen and (max-width: 736px){
+			#portfolio h3 {
+					font-size: 1rem;
+				}
+		}
